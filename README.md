@@ -3,6 +3,15 @@ Data Structures
   To compile and run them just use the `make` command (hopefully it works for you)
   and you can run them each individually. The programs are just me using all the operations
   and testing the output.
+  
+[Circular Buffer/Queue](circurlar_buffer.h)
+  Basically just a rotating queue, fun data structure to make since it required you wrapping around memory, couple of solutions
+  to this too.
+  
+[Queue Using two Stacks](queue_from_stacks.h)
+  This was more of a programming problem I was doing, but its still a data structure eh. Using two stacks to implement a queue
+  one acts as an input stack, and the other is an output, just have to make sure you only dump the input into the output when
+  the output is empty.
 
 [AVL Tree](avltree.h)
 
