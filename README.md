@@ -4,7 +4,7 @@ Data Structures
   and you can run them each individually. The programs are just me using all the operations
   and testing the output.
   
-[Circular Buffer/Queue](circurlar_buffer.h)
+[Circular Buffer/Queue](circular_buffer.h)
   Basically just a rotating queue, fun data structure to make since it required you wrapping around memory, couple of solutions
   to this too.
   
