@@ -44,8 +44,8 @@ class CircularQueue
     */
     CircularQueue( CircularQueue const & rhs ) :
       mem(new T[rhs.max_size]),
-      front(rhs.front),
-      rear(rhs.rear),
+      front( mem + ( rhs.front - rhs.mem ) ),
+      rear( mem + ( rhs.rear - rhs.mem ) ),
       size(rhs.size),
       max_size(rhs.max_size)
     {
